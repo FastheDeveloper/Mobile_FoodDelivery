@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Farouq Seriki\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Farouq Seriki\AppData\Roaming\npm\node_modules\yarn\bin;C:\Users\Farouq Seriki\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Farouq Seriki\AppData\Local\Microsoft\WindowsApps;C:\Users\Farouq Seriki\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Farouq Seriki\AppData\Roaming\npm;C:\Users\Farouq Seriki\Documents\mongosh-1.6.2-win32-x64\mongosh-1.6.2-win32-x64\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.26.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "fooddel",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.6",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.3"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/react": "~18.0.14",
+      "typescript": "^4.9.4"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
